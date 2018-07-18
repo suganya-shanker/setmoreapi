@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<div>
+<table>
+<!-- <h1>Pushing customers</h1>
+ --><tr><td>customer name</td> <td><input type="text" name="name" id="name"><br></td></tr>
+<!-- <button id="save">Save</button>
+ -->
+<!-- <h1>Getting staff list</h1>
+ --><tr><td>Staff</td><td><select id="stafflist"></select><br></td></tr>
+<!-- <button id="getstaff">Get staff list</button><br>
+ -->
+
+<!-- <h1>Getting service list</h1>
+ --><tr><td>Service </td><td> <select id="servicelist"></select><br></td></tr>
+<!-- <button id="getservice">Get service list</button><br>
+ -->
+</table>
+<!-- <h1>Getting slot for the day</h1>
+ -->Date: <input type="date" name="date" id="date">
+<button id="getslots">Get slots</button><br>
+Avaiable Slots<br>
+<div id="availableslots" style="height: 200px">
+	<div id="morning" class="column">Morning</div>
+	<div id="afternoon" class="column">Afternoon</div>
+	<div id="evening" class="column">Evening</div>
+</div><br>
+<button id="createappointment">Create Appointment</button>
+</div>
+<style >
+	.column{
+		width: 10%;
+		float:left;
+		padding: 3px;
+		margin: 1px;
+	}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="api.js"></script>
+
+</body>
+</html>
